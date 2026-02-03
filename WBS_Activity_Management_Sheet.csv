@@ -1,0 +1,17 @@
+WBS Code,Activity ID,Activity Name,Description,Phase,Start Date,End Date,Duration (Days),Status,Priority,Assignee,Department,Completion %,Dependencies,Budget (USD),Actual Cost (USD),Notes
+1.0,ACT-001,Project Initiation,Define project scope and objectives,Planning,2026-02-03,2026-02-07,5,In Progress,High,Project Manager,Management,60,,50000,30000,Initial stakeholder meetings completed
+1.1,ACT-002,Requirements Gathering,Collect and document system requirements,Planning,2026-02-08,2026-02-15,8,Not Started,High,Business Analyst,Engineering,0,ACT-001,30000,0,Schedule stakeholder interviews
+1.2,ACT-003,System Design,Create detailed system architecture,Design,2026-02-16,2026-02-28,13,Not Started,High,Lead Engineer,Engineering,0,ACT-002,75000,0,Include hardware and software design
+2.0,ACT-004,Hardware Setup,Configure dsPIC33EV128 microcontroller,Implementation,2026-03-01,2026-03-10,10,Not Started,High,Hardware Engineer,Engineering,0,ACT-003,40000,0,Order components in advance
+2.1,ACT-005,Firmware Development,Develop embedded firmware,Implementation,2026-03-11,2026-04-10,31,Not Started,Critical,Firmware Developer,Engineering,0,ACT-004,120000,0,Follow coding standards
+2.2,ACT-006,Sensor Integration,Integrate factory sensors,Implementation,2026-03-15,2026-03-30,16,Not Started,High,IoT Engineer,Engineering,0,ACT-004,55000,0,Test each sensor individually
+3.0,ACT-007,Software Development,Build management software interface,Implementation,2026-03-01,2026-04-15,46,Not Started,High,Software Developer,Engineering,0,ACT-003,150000,0,Use agile methodology
+3.1,ACT-008,Database Design,Design and implement database,Implementation,2026-03-01,2026-03-15,15,Not Started,High,Database Admin,IT,0,ACT-003,40000,0,Ensure data security
+3.2,ACT-009,API Development,Create REST APIs for data access,Implementation,2026-03-16,2026-04-05,21,Not Started,Medium,Backend Developer,Engineering,0,ACT-008,60000,0,Document all endpoints
+4.0,ACT-010,System Integration,Integrate all components,Integration,2026-04-16,2026-05-05,20,Not Started,Critical,Integration Lead,Engineering,0,"ACT-005,ACT-006,ACT-007",80000,0,Plan integration testing
+4.1,ACT-011,Unit Testing,Test individual components,Testing,2026-04-20,2026-05-10,21,Not Started,High,QA Engineer,Quality,0,ACT-010,35000,0,Automated test coverage >80%
+4.2,ACT-012,System Testing,End-to-end system testing,Testing,2026-05-11,2026-05-25,15,Not Started,Critical,QA Lead,Quality,0,ACT-011,45000,0,Include stress testing
+5.0,ACT-013,User Training,Train factory personnel,Deployment,2026-05-26,2026-06-05,11,Not Started,Medium,Training Coordinator,Operations,0,ACT-012,25000,0,Prepare training materials
+5.1,ACT-014,Documentation,Create user and technical documentation,Deployment,2026-05-15,2026-06-01,18,Not Started,Medium,Technical Writer,Documentation,0,ACT-012,30000,0,Include troubleshooting guide
+5.2,ACT-015,Deployment,Deploy system to production,Deployment,2026-06-06,2026-06-15,10,Not Started,Critical,DevOps Engineer,IT,0,"ACT-013,ACT-014",40000,0,Plan rollback strategy
+6.0,ACT-016,Post-Deployment Support,Provide support and monitoring,Maintenance,2026-06-16,2026-07-16,31,Not Started,High,Support Team,Operations,0,ACT-015,50000,0,24/7 monitoring for first month
