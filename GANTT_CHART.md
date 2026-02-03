@@ -140,7 +140,7 @@ The following activities can be executed in parallel to optimize schedule:
 | Integration & Testing | $160,000 | 17% |
 | Deployment | $95,000 | 10% |
 | Maintenance | $50,000 | 5% |
-| **Total** | **$970,000** | **100%** |
+| **Total** | **$925,000** | **100%** |
 
 ## Risk Register
 
